@@ -17,15 +17,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/hi_welcome"
-                android:textSize="20sp"
-                />
+                android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/textView13"
@@ -34,8 +33,7 @@
                 android:fontFamily="serif"
                 android:text="@string/the_best_way_for_job_hunting"
                 android:textSize="28sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <SearchView
                 android:layout_width="match_parent"
@@ -54,8 +52,7 @@
                 android:layout_weight="0"
                 android:text="@string/top_companies"
                 android:textSize="18sp"
-                android:textStyle="bold"
-                />
+                android:textStyle="bold" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -79,6 +76,7 @@
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     app:contentPadding="20dp" />
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -87,6 +85,7 @@
                     app:cardCornerRadius="10dp"
                     app:cardElevation="10dp"
                     app:contentPadding="20dp" />
+
                 <androidx.cardview.widget.CardView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -273,11 +272,11 @@
                 </androidx.cardview.widget.CardView>
 
                 <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/BottomNavigationView"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/background"
-                    app:menu="@menu/bottom_nav"
-                    >
+                    app:menu="@menu/bottom_nav">
 
                 </com.google.android.material.bottomnavigation.BottomNavigationView>
 

@@ -5,10 +5,22 @@
     android:layout_height="match_parent"
     tools:context=".CategoryFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <androidx.fragment.app.FragmentContainerView
+                android:id="@+id/fragmentContainerView3"
+                android:name="com.example.login_page.CategoryFragment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/activity_category_page" />
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>
