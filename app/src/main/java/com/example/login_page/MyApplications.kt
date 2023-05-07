@@ -53,6 +53,18 @@ class MyApplications : AppCompatActivity() {
                             intent.putExtra("aplAddress",aplList[position].aplAddress)
                             intent.putExtra("aplEmail",aplList[position].aplEmail)
                             intent.putExtra("aplPhone",aplList[position].aplPhone)
+                            intent.putExtra("aplSalary",aplList[position].aplSalary)
+                            intent.putExtra("aplGender",aplList[position].aplGender)
+                            intent.putExtra("aplTime",aplList[position].aplTime)
+                            intent.putExtra("aplPosition",aplList[position].aplPosition)
+                            intent.putExtra("aplStDate",aplList[position].aplStDate)
+                            intent.putExtra("aplEdDate",aplList[position].aplEdDate)
+                            intent.putExtra("aplGraduate",aplList[position].aplGraduate)
+                            intent.putExtra("aplDegree",aplList[position].aplDegree)
+                            intent.putExtra("aplUniversity",aplList[position].aplUniversity)
+                            intent.putExtra("aplDiploma",aplList[position].aplDiploma)
+                            intent.putExtra("aplCollege",aplList[position].aplCollege)
+
                             startActivity(intent)
                         }
 
