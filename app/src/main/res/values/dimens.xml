@@ -4,4 +4,15 @@
     <dimen name="subtitle">24sp</dimen>
     <dimen name="tags">20dp</dimen>
     <dimen name="ntext">16sp</dimen>
+    <dimen name="title">16sp</dimen>
+
+    <dimen name="signuptitle">34dp</dimen>
+    <dimen name="editmyvacancy">34sp</dimen>
+    <dimen name="editprofile">34sp</dimen>
+    <dimen name="personalprofile">34sp</dimen>
+    <dimen name="applyvacancy">34sp</dimen>
+    <dimen name="descriptions">19sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
 </resources>

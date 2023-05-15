@@ -27,7 +27,7 @@
                 android:fontFamily="serif"
                 android:text="My Profile"
                 android:textAlignment="center"
-                android:textSize="@dimen/Tiltle" />
+                android:textSize="@dimen/title" />
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -54,7 +54,7 @@
                     android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/font"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="@string/address"
