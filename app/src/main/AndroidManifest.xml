@@ -36,17 +36,47 @@
             android:name=".company_profile"
             android:exported="false" />
         <activity
-            android:name=".UpdateVacancyPage"
+            android:name=".UpdateAplDialog"
             android:exported="false" />
+        <activity
+            android:name=".AplDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AplListItems"
+            android:exported="false" />
+        <activity
+            android:name=".Apl_list_item"
+            android:exported="false" />
+        <activity
+            android:name=".Notification"
+            android:exported="true" />
+        <activity
+            android:name=".MyVacancy"
+            android:exported="true" />
+        <activity
+            android:name=".Bookmarks"
+            android:exported="true" />
+        <activity
+            android:name=".SignupEmp"
+            android:exported="true" />
+        <activity
+            android:name=".EditProfile"
+            android:exported="true" />
+        <activity
+            android:name=".company_profile"
+            android:exported="true" />
+        <activity
+            android:name=".UpdateVacancyPage"
+            android:exported="true" />
         <activity
             android:name=".AddVacancyPage"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".RegistrationPage"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Profile"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".HomePage"
             android:exported="false" />

@@ -6,13 +6,13 @@
     <string name="remember">Remember me</string>
     <string name="fullname">Full name</string>
     <string name="address">Address</string>
+    <string name="e_mail">E-mail</string>
     <string name="phone">Phone</string>
     <string name="desired_pay">Desired Pay</string>
     <string name="salary">Salary</string>
     <string name="hour">Hour</string>
     <string name="gender">Gender</string>
     <string name="male">Male</string>
-    <string name="edit_vacancy_details">sfdef</string>
     <string name="female">Female</string>
     <string name="employment_desired">Employment desired</string>
     <string name="full_time">Full-Time</string>
@@ -65,9 +65,9 @@
     <string name="update_account">Update Account</string>
     <string name="my_bookmarks">My bookmarks</string>
     <string name="delete_account">Delete Account</string>
+    <string name="sign_out">Sign out</string>
     <string name="name">Name</string>
     <string name="interested_jobs">Interested jobs</string>
-    <string name="registerB5">Register</string>
     <string name="register">Register</string>
     <string name="app_name3">Vacancies</string>
     <string name="job_title">Job title</string>
@@ -82,7 +82,7 @@
     <string name="personal_profile">Personal profile</string>
     <string name="edit_profile_details">Edit Profile Details</string>
     <string name="view_my_vacancies">View My Vacancies</string>
-    <string name="sign_out">Sign Out</string>
+
 
     <string name="nameH">Name:</string>
     <string name="usernameH">Username:</string>
@@ -94,7 +94,7 @@
     <string name="update_profile_details">Update Profile Details</string>
 
     <string name="usernamereg">username</string>
-    <string name="e_mail">E-mail</string>
+
     <string name="password2">Password</string>
     <string name="password3">Password</string>
     <string name="passwordEmp">Password</string>
@@ -120,6 +120,4 @@
     <string name="title_activity_welcome_page">welcomePage</string>
     <string name="cPassword">Password</string>
     <string name="cPassword_name">Confirm Password</string>
-
-
 </resources>

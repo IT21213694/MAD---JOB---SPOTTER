@@ -65,7 +65,7 @@
                         android:textColorHint="@color/hint" />
 
                     <TextView
-                        android:id="@+id/font"
+                        android:id="@+id/textView2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0"

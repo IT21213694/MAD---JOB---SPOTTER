@@ -25,7 +25,7 @@
             <ScrollView
                 android:id="@+id/scrollView3"
                 android:layout_width="420dp"
-                android:layout_height="200dp"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/edittext_background">
 
@@ -55,7 +55,7 @@
                         android:textSize="20dp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName2"
+                        android:id="@+id/etAplName"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -73,7 +73,7 @@
                         android:textSize="@dimen/tags" />
 
                     <EditText
-                        android:id="@+id/editTextTextPostalAddress"
+                        android:id="@+id/etAplAdress"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -91,7 +91,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName4"
+                        android:id="@+id/etAplEmail"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -109,7 +109,7 @@
                         android:textSize="20dp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName5"
+                        android:id="@+id/etAplPhone"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -126,34 +126,17 @@
                         android:text="@string/desired_pay"
                         android:textSize="20dp" />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
 
-                        <EditText
-                            android:id="@+id/editTextNumberDecimal"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:background="@drawable/edittext_background"
-                            android:ems="10"
-                            android:hint="@string/desired_pay"
-                            android:inputType="numberDecimal"
-                            android:textAlignment="center"
-                            android:textColorHint="@color/hint" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox3"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/salary" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/hour" />
-                    </LinearLayout>
+                    <EditText
+                        android:id="@+id/etAplSalary"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:hint="@string/desired_pay"
+                        android:inputType="numberDecimal"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
 
                     <TextView
                         android:id="@+id/textView22"
@@ -162,31 +145,16 @@
                         android:text="@string/gender"
                         android:textSize="20dp" />
 
-                    <RadioGroup
+                    <EditText
+                        android:id="@+id/etAplGender"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:orientation="horizontal">
-
-                            <RadioButton
-                                android:id="@+id/radioButton"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="0"
-                                android:text="@string/male"></RadioButton>
-
-                            <RadioButton
-                                android:id="@+id/radioButton2"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_weight="1"
-                                android:text="@string/female"></RadioButton>
-
-                        </LinearLayout>
-                    </RadioGroup>
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:hint="Male/Female"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint"  />
 
                     <TextView
                         android:id="@+id/textView23"
@@ -194,35 +162,17 @@
                         android:layout_height="wrap_content"
                         android:text="@string/employment_desired"
                         android:textSize="20dp"
-
                         />
-
-                    <LinearLayout
+                    <EditText
+                        android:id="@+id/etAplTime"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox4"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:text="@string/full_time" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox5"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:text="@string/part_time" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox6"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:text="Seasonal" />
-                    </LinearLayout>
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:hint="FullTime / PartTime"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
 
                     <TextView
                         android:id="@+id/textView24"
@@ -231,33 +181,16 @@
                         android:text="@string/position_applied_for"
                         android:textSize="20dp" />
 
-                    <com.google.android.material.textfield.TextInputLayout
+                    <EditText
+                        android:id="@+id/etAplPosition"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="374dp"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="25dp"
-                            android:background="@drawable/edittext_background"
-                            android:hint="@string/type_here" />
-                    </com.google.android.material.textfield.TextInputLayout>
-
-
-                </LinearLayout>
-            </ScrollView>
-
-            <ScrollView
-                android:id="@+id/scrollView4"
-                android:layout_width="420dp"
-                android:layout_height="200dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/edittext_background">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:hint="@string/type_here"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
 
                     <TextView
                         android:id="@+id/textView18"
@@ -268,62 +201,12 @@
 
                         />
 
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView25"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/are_you_sl_citizen"
-                            android:textSize="20dp" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox9"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
-                            android:layout_weight="0"
-                            android:text="@string/yes" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox7"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:text="@string/no" />
-
-                    </LinearLayout>
-
                     <TextView
                         android:id="@+id/textView26"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/have_you_ever_worked_for_this_employer_before"
                         android:textSize="20dp" />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <CheckBox
-                            android:id="@+id/checkBox10"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:text="@string/yes" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox11"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:text="@string/no" />
-
-                    </LinearLayout>
 
                     <TextView
                         android:id="@+id/textView27"
@@ -342,7 +225,7 @@
                         />
 
                     <EditText
-                        android:id="@+id/editTextDate"
+                        android:id="@+id/etAplStDate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -362,7 +245,7 @@
                         />
 
                     <EditText
-                        android:id="@+id/editTextDate2"
+                        android:id="@+id/etAplEdDate"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -373,114 +256,28 @@
                         android:textColorHint="@color/hint" />
 
                     <TextView
-                        android:id="@+id/textView30"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-
-                        android:text="@string/have_you_ever_conflicted_of_felony"
-                        android:textSize="20dp"
-
-                        />
-
-                    <LinearLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <CheckBox
-                            android:id="@+id/checkBox12"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/yes" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox13"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/no" />
-                    </LinearLayout>
-
-                    <TextView
-                        android:id="@+id/textView31"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="@string/if_yes_please_explain"
-                        android:textSize="20dp" />
-
-                    <com.google.android.material.textfield.TextInputLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
-
-                        <com.google.android.material.textfield.TextInputEditText
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="20dp"
-                            android:layout_marginRight="15dp"
-                            android:background="@drawable/edittext_background"
-                            android:hint="@string/type_here"
-                            android:textAlignment="center" />
-                    </com.google.android.material.textfield.TextInputLayout>
-
-                    <Button
-                        android:id="@+id/button2"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginLeft="300dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginRight="10dp"
-                        android:backgroundTint="@color/seemore"
-                        android:text="@string/add_cv_file" />
-
-                </LinearLayout>
-            </ScrollView>
-
-            <ScrollView
-                android:id="@+id/scrollView5"
-                android:layout_width="420dp"
-                android:layout_height="200dp"
-                android:layout_marginTop="10dp"
-                android:background="@drawable/edittext_background"
-                app:layout_marginBaseline="@dimen/cardview_compat_inset_shadow">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-
-                    <TextView
                         android:id="@+id/textView16"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="@string/education"
                         android:textSize="24sp" />
 
-
-                    <LinearLayout
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Graduate"
+                        android:textSize="20sp" />
+                    <EditText
+                        android:id="@+id/etAplGraduate"
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:orientation="horizontal">
-
-                        <TextView
-                            android:id="@+id/textView17"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Graduate"
-                            android:textSize="20sp" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox14"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginLeft="15dp"
-                            android:layout_weight="0"
-                            android:text="@string/yes" />
-
-                        <CheckBox
-                            android:id="@+id/checkBox15"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="0"
-                            android:text="@string/no" />
-                    </LinearLayout>
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edittext_background"
+                        android:ems="10"
+                        android:hint="Graduated or Not"
+                        android:inputType="textPersonName"
+                        android:textAlignment="center"
+                        android:textColorHint="@color/hint" />
 
                     <TextView
                         android:id="@+id/textView32"
@@ -490,7 +287,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName7"
+                        android:id="@+id/etAplDegree"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -508,7 +305,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName8"
+                        android:id="@+id/etAplUni"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -526,7 +323,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName9"
+                        android:id="@+id/etAplDip"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -544,7 +341,7 @@
                         android:textSize="20sp" />
 
                     <EditText
-                        android:id="@+id/editTextTextPersonName10"
+                        android:id="@+id/etAplCollege"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:background="@drawable/edittext_background"
@@ -555,13 +352,22 @@
                         android:textColorHint="@color/hint" />
 
                     <Button
-                        android:id="@+id/button"
+                        android:id="@+id/apply_application_btn"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="10dp"
                         android:backgroundTint="@color/seemore"
                         android:text="Apply" />
+
+                    <Button
+                        android:id="@+id/fetch_application_btn"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:backgroundTint="@color/seemore"
+                        android:text="My Applications" />
 
 
                 </LinearLayout>
